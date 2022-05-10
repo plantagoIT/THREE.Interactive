@@ -1,10 +1,11 @@
 {
   "name": "three.interactive",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Fast and simple interaction manager for THREE.js",
   "type": "module",
   "types": "./build/index.d.ts",
   "module": "./build/three.interactive.js",
+  "main": "./build/three.interactive.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && esbuild src/index.ts --bundle --minify --format=esm --sourcemap --external:three --outfile=build/three.interactive.js",
