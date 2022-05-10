@@ -5,7 +5,7 @@
   "type": "module",
   "types": "./build/index.d.ts",
   "module": "./build/three.interactive.js",
-  "main": "./build/three.interactive.json",
+  "main": "./build/three.interactive.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && esbuild src/index.ts --bundle --minify --format=esm --sourcemap --external:three --outfile=build/three.interactive.js",
